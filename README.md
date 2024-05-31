@@ -1,3 +1,6 @@
 # League Analysis
 
-I developed this project in order to analyze who would win a League of Legends game using statistics at the end of the match. I ended up with quite good results, with my model being able to predict the correct winner of a League of Legends game 98% of the time. For more discussion of these results and other analyses, look at "Erik Final Project.pdf"
+The goal of this project was to create an analysis tool that would be able to predict who is going to win a League of Legends match. I used a Kaggle dataset to get ~25000 game IDs and then used the Riot Developer API in order to pull the full information from each game. After doing a little bit of data cleaning, I trained a random forest model on the data, with good results. The accuracy ended up being about 98%, which seems quite possible because I used the end of game statistics. I also anaylzed what the best predictors of a win are, which ended up being the towers you take down. For more discussion of these results, look at "Erik Final Project.pdf".
+
+Thanks,
+Erik Van Cruyningen
